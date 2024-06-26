@@ -6,7 +6,10 @@ const FoodDisplay = () => {
   const {food_list} = useContext(StoreContext)
 
   return (
-    <div>FoodDisplay</div>
+    <div>FoodDisplay
+      <h1>main</h1>
+    </div>
+
   )
 }
 
